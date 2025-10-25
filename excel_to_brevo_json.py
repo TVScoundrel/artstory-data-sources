@@ -60,6 +60,19 @@ def convert_excel_to_json(
         # Rename the column to "Discount" for JSON output
         df.rename(columns={discount_col: "Discount"}, inplace=True)
 
+    # Format numeric values to Belgian style (2 decimals, comma separator)
+    def fmt_eu(x):
+        if pd.isna(x):
+            return None
+        try:
+            return f"{float(x):.2f}".replace(".", ",")
+        except Exception:
+            return None
+
+    if "RRP" in df.columns:
+        df["RRP"] = df["RRP"].apply(fmt_eu)
+    if "Promo" in df.columns:
+        df["Promo"] = df["Promo"].apply(fmt_eu)
 
     if article_code_col and article_code_col in df.columns and image_base_url:
         def build_image(val):
