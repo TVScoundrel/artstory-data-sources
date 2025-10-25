@@ -1,0 +1,52 @@
+name: Build catalogue JSON
+
+on:
+    workflow_dispatch: {}
+    push:
+        paths:
+            - "Sint Promo Lijst.xlsx"
+            - "excel_to_brevo_json.py"
+            - ".github/workflows/build-json.yml"
+
+permissions:
+    contents: write # allow commits back to the repo
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.11"
+
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install pandas openpyxl
+
+            - name: Convert Excel to JSON
+              run: |
+                  python excel_to_brevo_json.py \
+                    --excel "Sint Promo Lijst.xlsx" \
+                    --out "sint_promo_brevo_ready.json" \
+                    --image-base "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/" \
+                    --brand-col "Brand" \
+                    --product-desc-col "Products" \
+                    --article-code-col "Article code " \
+                    --discount-col "Discount %"
+
+            - name: Commit JSON (only if changed)
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  if ! git diff --quiet -- sint_promo_brevo_ready.json; then
+                    git add sint_promo_brevo_ready.json
+                    git commit -m "Build JSON from Excel [skip ci]"
+                    git push
+                  else
+                    echo "No changes to commit."
+                  fi
