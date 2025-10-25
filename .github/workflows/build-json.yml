@@ -11,12 +11,19 @@ on:
 permissions:
     contents: write # allow commits back to the repo
 
+concurrency:
+    group: build-json
+    cancel-in-progress: true
+
 jobs:
     build:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
               uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0 # needed for rebase
+                  persist-credentials: true # keep GITHUB_TOKEN for push
 
             - name: Set up Python
               uses: actions/setup-python@v5
@@ -41,12 +48,30 @@ jobs:
 
             - name: Commit JSON (create/update)
               run: |
-                  git config user.name "github-actions[bot]"
-                  git config user.email "github-actions[bot]@users.noreply.github.com"
-                  git add -A
+                  set -eux
+                  git config user.name  "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+                  # Stage only the JSON to keep commits clean; use -A if you prefer
+                  git add sint_promo_brevo_ready.json || true
+
                   if git diff --cached --quiet; then
                     echo "No changes to commit."
-                  else
-                    git commit -m "Build JSON from Excel [skip ci]"
-                    git push
+                    exit 0
                   fi
+
+                  git commit -m "Build JSON from Excel [skip ci]"
+
+                  # Rebase onto latest main to avoid non-fast-forward errors
+                  git pull --rebase origin main
+
+                  # Retry push (handles race with another workflow)
+                  for i in 1 2 3; do
+                    if git push origin HEAD:main; then
+                      echo "Push succeeded."
+                      break
+                    fi
+                    echo "Push failed, rebasing and retrying ($i/3)…"
+                    git pull --rebase origin main
+                    sleep 2
+                  done
