@@ -50,8 +50,16 @@ def convert_excel_to_json(
     df[brand_col] = df[brand_col].astype(str).str.strip()
 
     if discount_col and discount_col in df.columns:
-        df[discount_col] = pd.to_numeric(df[discount_col], errors="coerce").round(0).astype("Int64")
+        df[discount_col] = (
+            pd.to_numeric(df[discount_col], errors="coerce")
+            .round(0)
+            .abs()  # remove minus sign
+            .astype("Int64")
+        )
         df[discount_col] = df[discount_col].where(df[discount_col].notna(), None)
+        # Rename the column to "Discount" for JSON output
+        df.rename(columns={discount_col: "Discount"}, inplace=True)
+
 
     if article_code_col and article_code_col in df.columns and image_base_url:
         def build_image(val):
