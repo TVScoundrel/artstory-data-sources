@@ -39,14 +39,14 @@ jobs:
                     --article-code-col "Article code " \
                     --discount-col "Discount %"
 
-            - name: Commit JSON (only if changed)
+            - name: Commit JSON (create/update)
               run: |
                   git config user.name "github-actions[bot]"
                   git config user.email "github-actions[bot]@users.noreply.github.com"
-                  if ! git diff --quiet -- sint_promo_brevo_ready.json; then
-                    git add sint_promo_brevo_ready.json
+                  git add -A
+                  if git diff --cached --quiet; then
+                    echo "No changes to commit."
+                  else
                     git commit -m "Build JSON from Excel [skip ci]"
                     git push
-                  else
-                    echo "No changes to commit."
                   fi
