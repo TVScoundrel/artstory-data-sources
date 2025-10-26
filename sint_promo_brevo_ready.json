@@ -6,16 +6,16 @@
         {
           "Article code ": 60121250,
           "Products": "Bruynzeel Viltstiften set | 50 kleuren",
-          "RRP": 12.4,
-          "Promo": 8.1,
+          "RRP": "12,40",
+          "Promo": "8,10",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/60121250.jpg"
         },
         {
           "Article code ": 60325012,
           "Products": "Creatives Fineliner Brush pen set 12 kleuren",
-          "RRP": 10.6,
-          "Promo": 6.4,
+          "RRP": "10,60",
+          "Promo": "6,40",
           "Discount": 40,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/60325012.jpg"
         }
@@ -27,24 +27,56 @@
         {
           "Article code ": 186315,
           "Products": "CLASSIC FIBRALO BRUSH ASSORTIMENT 15PCS",
-          "RRP": 37.0,
-          "Promo": 24.0,
+          "RRP": "37,00",
+          "Promo": "24,00",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/186315.jpg"
         },
         {
+          "Article code ": 7500484,
+          "Products": "Classic Neocolor II Houten Kist - 84 Stuks - Aquarel Pastel",
+          "RRP": "365,00",
+          "Promo": "250,00",
+          "Discount": 32,
+          "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/7500484.jpg"
+        },
+        {
+          "Article code ": 666920,
+          "Products": "Classic Pablo Houten Kist 120 Stuks Kleurpotloden-FSC",
+          "RRP": "459,00",
+          "Promo": "299,00",
+          "Discount": 35,
+          "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/666920.jpg"
+        },
+        {
           "Article code ": 666312,
           "Products": "CLASSIC PABLO PENC. ASS.12PCS-FSC",
-          "RRP": 32.0,
-          "Promo": 20.95,
+          "RRP": "32,00",
+          "Promo": "20,95",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/666312.jpg"
         },
         {
+          "Article code ": 3888920,
+          "Products": "Classic Supracolor Houten Kist - 120 Stuks Aquarel Kleurpotloden-FSC",
+          "RRP": "459,00",
+          "Promo": "299,00",
+          "Discount": 35,
+          "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/3888920.jpg"
+        },
+        {
+          "Article code ": 3888480,
+          "Products": "Classic Supracolor Houten Kist - 80 Stuks Aquarel Kleurpotloden-FSC",
+          "RRP": "355,00",
+          "Promo": "239,00",
+          "Discount": 33,
+          "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/3888480.jpg"
+        },
+        {
           "Article code ": 1000315,
           "Products": "GOUACHE CAKES ASSORTED 15PCS",
-          "RRP": 44.0,
-          "Promo": 28.5,
+          "RRP": "44,00",
+          "Promo": "28,50",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/1000315.jpg"
         }
@@ -56,24 +88,24 @@
         {
           "Article code ": "95742C",
           "Products": "Mulimedia Kleurboek Odelia Cities",
-          "RRP": 14.2,
-          "Promo": 7.85,
+          "RRP": "14,20",
+          "Promo": "7,85",
           "Discount": 45,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/95742C.jpg"
         },
         {
           "Article code ": "95741C",
           "Products": "Mulimedia Kleurboek Odelia Flower ",
-          "RRP": 14.2,
-          "Promo": 7.85,
+          "RRP": "14,20",
+          "Promo": "7,85",
           "Discount": 45,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/95741C.jpg"
         },
         {
           "Article code ": "95743C",
           "Products": "Multimedia Kleurboek Odelia Gardens ",
-          "RRP": 14.2,
-          "Promo": 7.85,
+          "RRP": "14,20",
+          "Promo": "7,85",
           "Discount": 45,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/95743C.jpg"
         }
@@ -85,32 +117,32 @@
         {
           "Article code ": "EF-524110",
           "Products": "Badkrijt Eberhard Faber 10 stuks in bewaarbox incl. 5 patronen",
-          "RRP": 9.99,
-          "Promo": 6.5,
+          "RRP": "9,99",
+          "Promo": "6,50",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/EF-524110.jpg"
         },
         {
           "Article code ": "EF-550022",
           "Products": "Raamstift 8 delig ",
-          "RRP": 6.5,
-          "Promo": 4.25,
+          "RRP": "6,50",
+          "Promo": "4,25",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/EF-550022.jpg"
         },
         {
           "Article code ": "EF-551009",
           "Products": "Viltstiften Eberhard Faber Glitter pastel kleuren assorti 8st.",
-          "RRP": 7.99,
-          "Promo": 5.25,
+          "RRP": "7,99",
+          "Promo": "5,25",
           "Discount": 34,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/EF-551009.jpg"
         },
         {
           "Article code ": "EF-551008",
           "Products": "Viltstiften Glitter kleuren assorti 8st.",
-          "RRP": 7.99,
-          "Promo": 5.25,
+          "RRP": "7,99",
+          "Promo": "5,25",
           "Discount": 34,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/EF-551008.jpg"
         }
@@ -122,24 +154,24 @@
         {
           "Article code ": "FC-116418",
           "Products": "Black Edition 72 stuks in roletui zwart - Kleurpotlood",
-          "RRP": 54.99,
-          "Promo": 43.5,
+          "RRP": "54,99",
+          "Promo": "43,50",
           "Discount": 21,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/FC-116418.jpg"
         },
         {
           "Article code ": "FC-167152",
           "Products": "Manga starterset - Pitt Artist Pen",
-          "RRP": 28.99,
-          "Promo": 25.99,
+          "RRP": "28,99",
+          "Promo": "25,99",
           "Discount": 10,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/FC-167152.jpg"
         },
         {
           "Article code ": "FC-167195",
           "Products": "Pitt Artist Pen Comic illustratie set",
-          "RRP": 28.99,
-          "Promo": 25.99,
+          "RRP": "28,99",
+          "Promo": "25,99",
           "Discount": 10,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/FC-167195.jpg"
         }
@@ -151,8 +183,8 @@
         {
           "Article code ": 563830,
           "Products": "Generals Learn How to Draw Kit ",
-          "RRP": 24.99,
-          "Promo": 22.5,
+          "RRP": "24,99",
+          "Promo": "22,50",
           "Discount": 10,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/563830.jpg"
         }
@@ -163,26 +195,26 @@
       "products": [
         {
           "Article code ": 1222609,
-          "Products": "Aquaplus - Aquarelverf set rood - 12",
-          "RRP": 6.4,
-          "Promo": 4.8,
+          "Products": "Aquaplus - Aquarelverf set rood of blauw- 12",
+          "RRP": "6,40",
+          "Promo": "4,80",
           "Discount": 25,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/1222609.jpg"
         },
         {
           "Article code ": 1233469,
           "Products": "ColourPlus set an 24 Kleurpotloden",
-          "RRP": 8.3,
-          "Promo": 6.05,
+          "RRP": "8,30",
+          "Promo": "6,05",
           "Discount": 27,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/1233469.jpg"
         },
         {
           "Article code ": "P470",
           "Products": "Kleurpotloden Color plus - 36 ",
-          "RRP": 8.75,
-          "Promo": 12.9,
-          "Discount": 47,
+          "RRP": "12,90",
+          "Promo": "8,75",
+          "Discount": 32,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/P470.jpg"
         }
       ]
@@ -193,16 +225,16 @@
         {
           "Article code ": 807154,
           "Products": "Educatie Oliepastel Set - 12 Pastels Diam 8mm",
-          "RRP": 4.95,
-          "Promo": 2.53,
-          "Discount": 49,
+          "RRP": "4,95",
+          "Promo": "2,55",
+          "Discount": 48,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/807154.jpg"
         },
         {
           "Article code ": 807312,
           "Products": "Educatieve Acrylverfset - Educatiebox met 12 Cupjes + Penseel",
-          "RRP": 6.5,
-          "Promo": 5.3,
+          "RRP": "6,50",
+          "Promo": "5,30",
           "Discount": 18,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/807312.jpg"
         }
@@ -214,16 +246,16 @@
         {
           "Article code ": "LP-A4380",
           "Products": "Thermosfles 500ml DIY creatieve set Dino incl 6 markers",
-          "RRP": 29.99,
-          "Promo": 21.95,
+          "RRP": "29,99",
+          "Promo": "21,95",
           "Discount": 27,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/LP-A4380.jpg"
         },
         {
           "Article code ": "LP-A4379",
           "Products": "Thermosfles 500ml DIY creatieve set Snoopy incl 6 markers",
-          "RRP": 29.99,
-          "Promo": 21.95,
+          "RRP": "29,99",
+          "Promo": "21,95",
           "Discount": 27,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/LP-A4379.jpg"
         }
@@ -235,24 +267,24 @@
         {
           "Article code ": 1820310,
           "Products": "Olieverf basisset | 10 x 15 m",
-          "RRP": 74.25,
-          "Promo": 40.95,
+          "RRP": "74,25",
+          "Promo": "40,95",
           "Discount": 45,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/1820310.jpg"
         },
         {
           "Article code ": 31823116,
           "Products": "Soft pastel set Algemene Selectie | 30 halve pastels",
-          "RRP": 45.2,
-          "Promo": 29.6,
+          "RRP": "45,20",
+          "Promo": "29,60",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/31823116.jpg"
         },
         {
           "Article code ": 31823032,
           "Products": "Soft Pastels set van 30 vol pastels - Lanscape selection",
-          "RRP": 64.05,
-          "Promo": 41.5,
+          "RRP": "64,05",
+          "Promo": "41,50",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/31823032.jpg"
         }
@@ -264,80 +296,80 @@
         {
           "Article code ": "POAK3C",
           "Products": "Creative Kit Grote Golf van Kanagawa",
-          "RRP": 7.95,
-          "Promo": 5.15,
+          "RRP": "7,95",
+          "Promo": "5,15",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/POAK3C.jpg"
         },
         {
           "Article code ": "POAK3A",
           "Products": "Creative Kit Kersenbloesem",
-          "RRP": 7.95,
-          "Promo": 5.15,
+          "RRP": "7,95",
+          "Promo": "5,15",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/POAK3A.jpg"
         },
         {
           "Article code ": "POAK3B",
           "Products": "Creative Kit Manga",
-          "RRP": 7.95,
-          "Promo": 5.15,
+          "RRP": "7,95",
+          "Promo": "5,15",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/POAK3B.jpg"
         },
         {
           "Article code ": 16550002,
           "Products": "Happiness Journal Set",
-          "RRP": 18.55,
-          "Promo": 12.95,
+          "RRP": "18,55",
+          "Promo": "12,95",
           "Discount": 30,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/16550002.jpg"
         },
         {
           "Article code ": 9791609,
           "Products": "Plakkaatverf Set Primaire Kleuren | 6 x 16 ml",
-          "RRP": 12.05,
-          "Promo": 6.5,
-          "Discount": 46,
+          "RRP": "12,05",
+          "Promo": "6,80",
+          "Discount": 44,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/9791609.jpg"
         },
         {
           "Article code ": 60159006,
           "Products": "Plakkaatverf sticks set Basic | 6 kleuren",
-          "RRP": 6.15,
-          "Promo": 3.5,
+          "RRP": "6,15",
+          "Promo": "3,50",
           "Discount": 43,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/60159006.jpg"
         },
         {
           "Article code ": 16550001,
           "Products": "Royal Talens Floral Watercolour Set",
-          "RRP": 29.95,
-          "Promo": 19.5,
+          "RRP": "29,95",
+          "Promo": "19,50",
           "Discount": 35,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/16550001.jpg"
         },
         {
           "Article code ": "9022008M",
           "Products": "Talens Art Creation Aquarelverfset 8 x 12 ml",
-          "RRP": 10.25,
-          "Promo": 5.55,
-          "Discount": 46,
+          "RRP": "10,25",
+          "Promo": "5,60",
+          "Discount": 45,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/9022008M.jpg"
         },
         {
           "Article code ": 95830012,
           "Products": "Talens Panda oliepastels set | 12 kleuren",
-          "RRP": 8.6,
-          "Promo": 4.7,
+          "RRP": "8,60",
+          "Promo": "4,70",
           "Discount": 45,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/95830012.jpg"
         },
         {
           "Article code ": 95721212,
           "Products": "Talens Wasco waskrijt set | 12 kleuren",
-          "RRP": 7.75,
-          "Promo": 4.25,
+          "RRP": "7,75",
+          "Promo": "4,25",
           "Discount": 45,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/95721212.jpg"
         }
@@ -349,8 +381,8 @@
         {
           "Article code ": 2190614,
           "Products": "Galeria Acrylic Colour Wooden Box Set 15pc​",
-          "RRP": 86.4,
-          "Promo": 51.85,
+          "RRP": "86,40",
+          "Promo": "51,85",
           "Discount": 40,
           "Image": "https://cdn.jsdelivr.net/gh/TVScoundrel/artstory-data-sources@main/product-images/2190614.jpg"
         }
